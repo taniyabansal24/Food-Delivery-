@@ -1,0 +1,63 @@
+/* Navigation Section  */
+#navbar{
+flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1.1rem;
+    padding: 0px 5px;
+    padding-bottom: 7px;
+}
+#logo img{
+    margin: 13px 6px 3px
+}
+
+
+/* Home Section */
+#home {
+    height: 360px;
+    padding: 3px 30px;
+}
+#home::before{
+    height: 472px;
+}
+#home p{
+    font-size: 13px;
+}
+
+
+/* Services Section */
+
+#services {
+    display: flex;
+    flex-direction: column;
+}
+
+#services .box {
+    margin:10px 5px 2px 5px;
+}
+
+/* Clients Section */
+
+#clients {
+    overflow: hidden;
+}
+#clients img{
+    height: 75px;
+}
+.clients-items{
+    padding: 10px;
+}
+#clients-section::before{
+    height: 163px;
+}
+
+/* Contact Us Section */
+
+
+/* Footer  */
+
+/* Uility Classes  */
+
+.h-primary{
+    font-size: 30px;
+}
